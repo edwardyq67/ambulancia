@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const NavBar = () => {
   const navigate=useNavigate()
   return (
-    <nav className="bg-kashmir-600 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="bg-kashmir-600 fixed w-full z-50 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="" className="flex  items-center space-x-3 rtl:space-x-reverse">
           <img src="http://res.cloudinary.com/dcwdddwnh/image/upload/v1718821372/images_app/logo-serviciosqhalikay.png" className="h-8" alt="Flowbite Logo" />
